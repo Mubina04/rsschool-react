@@ -1,0 +1,7 @@
+export {default as HomePage} from './homepage'
+export {default as Product} from './product'
+export {default as ParkRates} from './park_rates'
+export {default as WholeSale} from './whole_sale'
+export {default as PublicCatering} from './public_catering'
+export {default as ServicesTabe} from './services_table'
+export {default as OtherServices} from './other_services'

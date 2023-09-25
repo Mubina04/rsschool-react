@@ -1,0 +1,6 @@
+.card{
+    @apply bg-white rounded-[20px] h-[320px] md:h-[423px] pt-7 md:pt-20 px-7 text-center shadow-[0_4px_20px_0_rgba(196,207,255,0.30)] flex flex-col items-center
+}
+.card_link{
+    @apply bg-[#5271FF] border border-transparent text-white rounded-full py-2 md:py-3  mb-7 md:mb-[2.1875rem] mt-auto min-w-[163px] hover:bg-white hover:border-[#5271FF] hover:text-[#5271FF]
+}

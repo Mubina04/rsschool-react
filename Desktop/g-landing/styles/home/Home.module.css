@@ -1,0 +1,172 @@
+.header {
+  @apply relative min-h-[550px] md:min-h-[729px] ;
+  width: 100%;
+  background-image: url('/images/Frame.svg'), url('/images/vector.svg');
+  background-repeat: no-repeat no-repeat;
+  background-position: top left, bottom right;
+  background-size: cover cover;
+}
+
+.header__wrapper {
+  @apply grid md:grid-cols-1 lg:grid-cols-2
+}
+
+.header_left_side {
+  @apply w-full md:max-w-[553px] mt-14 mb-4 md:my-20 lg:my-[188px]
+}
+
+.header_left_side h1 {
+  @apply text-3xl sm:text-5xl md:text-7xl
+}
+
+.header_left_side p {
+  color: #1C1F35;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  @apply leading-6 my-5;
+  letter-spacing: 0.72px;
+}
+
+.book_btn {
+  @apply rounded-full border bg-indigo-500 sm:mt-8 md:mt-16 py-3 md:py-5 px-8 text-lg leading-6 font-bold text-white
+}
+
+.book_btn:hover {
+  @apply border border-indigo-500 bg-transparent text-indigo-500
+}
+
+.header_right_side {
+  @apply lg:absolute bottom-0 lg:right-[120px]
+}
+
+/* Groups */
+.longterm_bg {
+  background-image: url('/images/Group.png');
+}
+
+.groups {
+  @apply py-14 lg:my-28 w-full;
+  background-image: url('/images/Pattern.png'), rgb(224 231 255);
+  background-repeat: no-repeat, no-repeat;
+  background-position: top right, top left;
+}
+
+.groups_wrapper {
+  @apply flex flex-wrap lg:flex-nowrap justify-between lg:gap-[66px] items-center
+}
+
+.group_left_side {
+  @apply w-[692px]
+}
+
+.group_right_side {
+  @apply max-w-[486px] mt-3
+}
+
+.section_name {
+  @apply border-l-4 border-indigo-500 rounded bg-zinc-100 px-2 py-0.5 text-sm;
+  color: #1C1F35;
+}
+
+.section_heading {
+  @apply text-2xl md:text-3xl lg:text-4xl font-bold;
+  color: #1C1F35
+}
+
+.about_us_second h2 {
+  @apply text-center
+}
+
+.groups {
+  @apply pb-[5.625rem];
+  background-image: url('/images/Pattern.png');
+  background-repeat: no-repeat;
+  background-position: top right;
+}
+
+.group_right_side__paragraph {
+  @apply leading-6 my-6;
+  color: #666C89;
+}
+
+.btn {
+  @apply flex items-center border border-transparent rounded-xl sm:rounded-full py-2 px-2 sm:py-4 sm:px-5 gap-2 text-white text-center;
+  background: #5271FF;
+}
+
+.group_right_side .btn {
+  @apply text-[14px] max-w-[267px]
+}
+
+.btn:hover {
+  @apply border-indigo-600 text-indigo-600 bg-white
+}
+
+.arrow_down {
+  @apply sm:text-xl
+}
+
+/* About Us */
+
+.why_us {
+  @apply pb-[5.625rem] rounded-3xl flex items-center justify-between flex-wrap lg:flex-nowrap
+}
+
+.why_us__left_side {
+  @apply max-w-[487px]
+}
+
+.blue_text {
+  @apply text-indigo-500;
+  font-family: "Book Antiqua", sans-serif;
+}
+
+.about_us_list li {
+  @apply flex items-center gap-3 my-5 sm:my-9
+}
+
+.about_us_list__icons {
+  @apply text-indigo-500 text-2xl
+}
+
+/* Services */
+.services {
+  @apply mb-16 py-8
+}
+
+.services_wrapper {
+  @apply grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-5 gap-y-[3.25rem] mt-8 md:mt-16 mb-[5.75rem]
+}
+
+/* contacts */
+.contacts {
+  @apply bg-white rounded-3xl mx-5 py-9
+}
+
+.contacts_wrapper {
+  @apply flex md:gap-5 flex-wrap md:flex-nowrap justify-around items-center
+}
+
+.iframe {
+  @apply md:w-[300px] md:h-[300px] lg:w-[638px] lg:h-[638px]
+}
+
+.news {
+  @apply mt-14 lg:mt-24 mb-7
+}
+
+.news_line {
+  @apply w-4/5 h-px bg-[#D6D6D6] mx-auto mt-9
+}
+
+.sections_wrapper, .tables_wrapper {
+  background-image: url('/images/Group.png');
+  background-repeat: no-repeat;
+}
+
+.tables_wrapper {
+  background-image: url('/images/table_bg1.png');
+}
+
+.rates_text {
+  @apply text-xl text-[#1C1F35] font-bold leading-7 mb-6
+}
